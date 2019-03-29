@@ -67,7 +67,7 @@ FTPClient <- R6::R6Class(
     url = NULL,
     port = 21,
     dir = NULL,
-    active = FALSE,
+    active = TRUE,
 
     print = function(x, ...) {
       cat("<ftp client> ", sep = "\n")
